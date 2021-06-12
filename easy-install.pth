@@ -1,0 +1,12 @@
+import sys; sys.__plen = len(sys.path)
+./spotify_google_api-0.4.6-py2.7.egg
+./python_gflags-3.1.2-py2.7.egg
+./colorama-0.3.9-py2.7.egg
+./keyring-11.0.0-py2.7.egg
+./oauth2client-1.5.2-py2.7.egg
+./httplib2-0.10.3-py2.7.egg
+./six-1.11.0-py2.7.egg
+./rsa-3.4.2-py2.7.egg
+./pyasn1_modules-0.2.1-py2.7.egg
+./pyasn1-0.4.2-py2.7.egg
+import sys; new = sys.path[sys.__plen:]; del sys.path[sys.__plen:]; p = getattr(sys, '__egginsert', 0); sys.path[p:p] = new; sys.__egginsert = p + len(new)
